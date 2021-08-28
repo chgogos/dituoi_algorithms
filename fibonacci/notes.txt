@@ -1,0 +1,3 @@
+>>> from fib_recursive import fib
+>>> import timeit
+>>> timeit.timeit('fib(10)', number=100, globals=globals())
